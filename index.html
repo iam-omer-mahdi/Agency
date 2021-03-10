@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency | landing page</title>
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="container">
+                <a href="index.html" class="navbar-brand mt-n1"><i class="fab fa-accusoft mx-1"></i> Agency</a>
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav me-auto">
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+                        <li class="nav-item"><a href="#caseStudies" class="nav-link">Case Studies</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+
+                    <ul class="navbar-nav nav ml-auto">
+                        <li class="nav-item">
+                            <div class="nav-link text-white"><i class="fa fa-mobile-alt mx-1"></i> +02 8389 823 433
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link bg-white text-primary mx-4 rounded">Contact Us</a></li>
+                        <li class="nav-item"><a href="" class="nav-link" data-mdb-toggle="modal" data-mdb-target="#staticBackdrop"><i class="fa fa-search text-white"></i></a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+        <!-- Search Modal -->
+        <div class="modal fade" id="staticBackdrop" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group">
+                            <input type="text" placeholder="Search ..." class="form-control">
+                            <button class="btn btn-link btn-primary"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Showcase Section -->
+        <section id="showcase" class="d-flex justify-content-start align-items-center h-90vh">
+            <!-- dark overlay -->
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="card border-top border-3 w-65 border-primary rounded-0 px-5 pb-5">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-body">
+                                    <p class="card-title fs-3 text-black">Business solution for <br> ambitious, fast
+                                        growing brands.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui velit porro impedit
+                                        perferendis maiores in laudantium alias cupiditate eos nostrum.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-body">
+                                    <p class="card-title fs-3 text-black">Latest technologies and <br> equipments, fast
+                                        working track.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui velit porro impedit
+                                        perferendis maiores in laudantium alias cupiditate eos nostrum.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-body">
+                                    <p class="card-title fs-3 text-black">Working towards a <br> better future for the
+                                        planet.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui velit porro impedit
+                                        perferendis maiores in laudantium alias cupiditate eos nostrum.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-lg btn-primary rounded-0 font-weight-bold">Start A Project <i
+                                class="mx-2 fa fa-arrow-right fs-6"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Curve -->
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+                <path fill="" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
+            </svg>
+        </section>
+        <!-- Services -->
+        <section id="services" class="pt-5">
+            <div class="container">
+                <div class="row mx-auto">
+                    <div class="col-sm-12 col-md-5">
+                        <div class="services-img h-100" style="background: url(images/services-2.jpg) center/cover;"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-7">
+                        <div class="services-content">
+                            <span class="heading text-uppercase">our services</span>
+                            <h4 class="display-6">Services we can help you with.</h4>
+                            <article>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingOne">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-mdb-toggle="collapse" data-mdb-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Accordion Item #1
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingOne"
+                                                    data-mdb-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                        accusamus terry
+                                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingTwo">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-mdb-toggle="collapse" data-mdb-target="#flush-collapseTwo"
+                                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                        Accordion Item #2
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingTwo"
+                                                    data-mdb-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                        accusamus terry
+                                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingThree">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#flush-collapseThree" aria-expanded="false"
+                                                        aria-controls="flush-collapseThree">
+                                                        Accordion Item #3
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingThree"
+                                                    data-mdb-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                        accusamus terry
+                                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="js/mdb.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/gsap-core.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

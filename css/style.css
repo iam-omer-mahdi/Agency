@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.navbar {
+  background: #1e3799 !important;
+}
+
+.bg-primary {
+  background-color: #1e3799 !important;
+}
+
+.btn-primary {
+  background-color: #1e3799;
+  color: #fff;
+  border-color: #1e3799;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-primary i {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #16286e;
+  border-color: #16286e;
+}
+
+.btn-primary:hover i {
+  margin-left: 1rem !important;
+}
+
+.border-primary {
+  border-color: #1e3799 !important;
+}
+
+.text-primary {
+  color: #1e3799 !important;
+}
+
+.h-90vh {
+  height: 90vh;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+#showcase {
+  background: url("../images/services.jpg") center/cover;
+  position: relative;
+}
+
+#showcase .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#showcase #svg {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  fill: #fff;
+}
+
+#showcase .card-title {
+  position: relative;
+  font-weight: bold;
+}
+
+#showcase .card-title::before {
+  content: "";
+  position: absolute;
+  left: -2.5rem;
+  top: 1.3rem;
+  width: 1.8rem;
+  height: .15rem;
+  background: #222;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 40vh;
+}
+
+.swiper-slide, .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+#services {
+  min-height: 100vh;
+}
+
+#services .services-content {
+  height: 80vh;
+}
+/*# sourceMappingURL=style.css.map */
